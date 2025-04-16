@@ -11,7 +11,7 @@ macOS, Apple tarafından imzalanmamış uygulamaları güvenlik nedeniyle doğru
 * Uygulama yüklendikten sonra "F4" tuşuna basarak "Terminal"'i açınız.
 * Açılan terminal ekranında aşağıdaki komut satırını yapıştırıp enter'a basınız.
 ```bash
-xattr -cr "Flyport Scraper.app"
+xattr -cr /Applications/Flyport\ Scraper.app 
 ```
 
 * Terminal'i artık kapatabilirsiniz, uygulama sorunsuz çalışacaktır.
